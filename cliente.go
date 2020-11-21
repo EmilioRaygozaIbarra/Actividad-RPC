@@ -24,9 +24,7 @@ func client() {
 	var op int64
 	var nombre, materia string
 	var calificacion, reply float64
-	//Para limpiar consola
 
-	//Para leer consola
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		//Limpiar consola
@@ -96,8 +94,5 @@ func client() {
 
 func main() {
 	client()
-	/*var pausa int64
-	fmt.Scanln(&pausa)
-	for pausa != 5 {
-	}*/
+
 }
